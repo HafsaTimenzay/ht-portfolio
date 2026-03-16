@@ -1,16 +1,11 @@
 import {
   FileTextIcon, // CV icon
-  LinkIcon,
   MapPinIcon,
-  MarsIcon,
-  NonBinaryIcon,
   VenusIcon,
 } from "lucide-react"
 
 import { USER } from "@/features/portfolio/data/user"
-import type { User } from "@/features/portfolio/types/user"
 import { cn } from "@/lib/utils"
-import { urlToName } from "@/utils/url"
 
 import { Panel, PanelContent } from "../panel"
 import { CurrentLocalTimeItem } from "./current-local-time-item"
@@ -84,7 +79,7 @@ export function Overview() {
             </IntroItemContent>
           </IntroItem>
 
-           <IntroItem>
+          <IntroItem>
             <IntroItemIcon><VenusIcon /></IntroItemIcon>
             <IntroItemContent aria-label={`Pronouns: ${USER.pronouns}`}>
               {USER.pronouns}
