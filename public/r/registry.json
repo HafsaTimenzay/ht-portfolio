@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "ncdai",
+  "homepage": "https://chanhdai.com/components",
+  "items": [
+    {
+      "name": "utils",
+      "title": "Utility Functions",
+      "author": "ncdai <dai@chanhdai.com>",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "files": [
+        {
+          "path": "src/lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "type": "registry:lib"
+    },
+    {
+      "name": "use-controllable-state",
+      "title": "Controllable State Hook",
+      "files": [
+        {
+          "path": "src/hooks/use-layout-effect.tsx",
+          "type": "registry:hook"
+        },
+        {
+          "path": "src/hooks/use-controllable-state.ts",
+          "type": "registry:hook"
+        }
+      ],
+      "type": "registry:hook"
+    },
+    {
+      "name": "use-sound",
+      "title": "Sound Hook",
+      "description": "Custom React hook to load and play a sound from a given URL using the Web Audio API.",
+      "files": [
+        {
+          "path": "src/hooks/use-sound.ts",
+          "type": "registry:hook"
+        }
+      ],
+      "type": "registry:hook"
+    }
+  ]
+}
