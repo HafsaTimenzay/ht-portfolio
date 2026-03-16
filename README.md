@@ -1,11 +1,103 @@
-# [chanhdai.com](https://chanhdai.com) &middot; [![GitHub License](https://img.shields.io/github/license/ncdai/chanhdai.com?label=License)](https://github.com/ncdai/chanhdai.com/blob/main/LICENSE) ![GitHub Repo Views](https://gitviews.com/repo/ncdai/chanhdai.com.svg?style=flat&label-color=%23555&color=%23f59e0b)
+# [ht-portfolio](https://hafsatimenzay.github.io/ht-portfolio) &middot; [![GitHub License](https://img.shields.io/github/license/HafsaTimenzay/ht-portfolio?label=License)](https://github.com/HafsaTimenzay/ht-portfolio/blob/main/LICENSE) ![GitHub Repo Views](https://gitviews.com/repo/HafsaTimenzay/ht-portfolio.svg?style=flat&label-color=%23555&color=%23f59e0b)
 
 A minimal, pixel-perfect dev portfolio, component registry, and blog to showcase my work as a Design Engineer.
 
-→ Check out the live site: [chanhdai.com](https://chanhdai.com)
+→ Check out the live site: [hafsatimenzay.github.io/ht-portfolio](https://hafsatimenzay.github.io/ht-portfolio)
 
-[![screenshot-dark](https://assets.chanhdai.com/images/screenshot-desktop-dark.webp?v=6#gh-dark-mode-only)](https://chanhdai.com#gh-dark-mode-only)
-[![screenshot-light](https://assets.chanhdai.com/images/screenshot-desktop-light.webp?v=6#gh-light-mode-only)](https://chanhdai.com#gh-light-mode-only)
+[![screenshot-dark](https://assets.chanhdai.com/images/screenshot-desktop-dark.webp?v=6#gh-dark-mode-only)](https://hafsatimenzay.github.io/ht-portfolio#gh-dark-mode-only)
+[![screenshot-light](https://assets.chanhdai.com/images/screenshot-desktop-light.webp?v=6#gh-light-mode-only)](https://hafsatimenzay.github.io/ht-portfolio#gh-light-mode-only)
+
+## Overview
+
+### Stack
+
+- Next.js 16
+- Tailwind CSS v4
+- shadcn/ui
+
+### Featured
+
+- Clean & modern design
+- Light/Dark themes
+- vCard integration
+- SEO optimized ([JSON-LD schema](https://json-ld.org), sitemap, robots)
+- AI-ready with [/llms.txt](https://llmstxt.org)
+- Spam-protected email
+- Installable as PWA
+- Analytics with [PostHog](https://posthog.com) and [OpenPanel](https://openpanel.dev)
+- Consent management via [c15t](https://c15t.com)
+
+### Blog
+
+- Supports MDX & Markdown
+- Raw `.mdx` endpoints for AI readability
+- Syntax highlighting for clear code presentation
+- Dynamic OG images for rich link previews
+- RSS feed for easy content distribution
+
+### Registry
+
+Easily build and distribute reusable components, hooks, and pages using a custom registry powered by the [shadcn CLI](https://ui.shadcn.com/docs/cli).
+
+Each entry is well-documented and includes:
+
+- Live preview & code snippets
+- Beautiful, readable code blocks
+- One-click command blocks (pnpm, npm, yarn, bun)
+
+### Analytics
+
+User behavior tracking with [PostHog](https://posthog.com) and [OpenPanel](https://openpanel.dev) to understand how visitors interact with the site:
+
+- **Copy events** - Track code & command copies
+- **Engagement** - Monitor name pronunciation plays, command menu usage
+- **Search behavior** - Analyze search queries (debounced)
+- **User actions** - Navigation, theme changes, content interactions
+- **Screen views** - Automatic page view tracking (OpenPanel)
+
+Built with privacy in mind:
+
+- Consent management via [c15t](https://c15t.com)
+- Cookieless mode until consent
+- Production-only tracking
+- Type-safe event schema with Zod
+- Dual analytics setup for redundancy and comprehensive insights
+
+## Development
+
+Please refer to the [Development Guide](./DEVELOPMENT.md) for more details.
+
+## License
+
+Licensed under the [MIT license](./LICENSE).
+
+You're free to use my code! Just make sure to <ins>remove all my personal information</ins> before publishing your website. It's awesome to see my code being useful to someone!
+
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=HafsaTimenzay/ht-portfolio)](https://github.com/HafsaTimenzay/ht-portfolio/graphs/contributors)
+
+> Made with [contrib.rocks](https://contrib.rocks)
+
+## Sponsors
+
+This project is proudly supported by:
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://shadcnstudio.com?utm_source=ht-portfolio&utm_medium=banner&utm_campaign=github#gh-light-mode-only">
+          <img src="https://assets.chanhdai.com/images/sponsors/shadcnstudio.svg?v=2#gh-light-mode-only" alt="shadcnstudio.com" />
+        </a>
+        <a href="https://shadcnstudio.com?utm_source=ht-portfolio&utm_medium=banner&utm_campaign=github#gh-dark-mode-only">
+          <img src="https://assets.chanhdai.com/images/sponsors/shadcnstudio-dark.svg?v=2#gh-dark-mode-only" alt="shadcnstudio.com" />
+        </a>
+      </td>
+      <td>
+        <a href="https://shadcnspace.com#gh-light-mode-only">
+          <img
+            src="https://assets.chanhdai.com/images/sponsors/shadcnspace.svg?v=3#gh-light-mode-only"
 
 ## Overview
 
